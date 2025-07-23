@@ -1,0 +1,6 @@
+| Test Case ID | Title                        | Pre-Conditions              | Username          | Password        | Expected Result                 |
+| ------------ | ---------------------------- | --------------------------- | ----------------- | --------------- | ------------------------------- |
+| TC\_SD\_001  | Login with Valid Credentials | Valid credentials           | standard\_user    | secret\_sauce   | User lands on Products page     |
+| TC\_SD\_002  | Login with Invalid Password  | Invalid password            | standard\_user    | wrong\_password | Error message appears           |
+| TC\_SD\_003  | Login with Empty Fields      | Leave fields blank          | (blank)           | (blank)         | Error: Username is required     |
+| TC\_SD\_004  | Login with Locked Out User   | Locked out user credentials | locked\_out\_user | secret\_sauce   | Error: User has been locked out |
