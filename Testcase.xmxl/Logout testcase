@@ -4,3 +4,16 @@
 | TC\_SD\_002  | Login with Invalid Password  | Invalid password            | standard\_user    | wrong\_password | Error message appears           |
 | TC\_SD\_003  | Login with Empty Fields      | Leave fields blank          | (blank)           | (blank)         | Error: Username is required     |
 | TC\_SD\_004  | Login with Locked Out User   | Locked out user credentials | locked\_out\_user | secret\_sauce   | Error: User has been locked out |
+
+
+| Field                | Value/Details                                 |
+| -------------------- | --------------------------------------------- |
+| **Test Case ID**     | TC\_SD\_002                                   |
+| **Title**            | Logout from the application                   |
+| **Module**           | Login / Logout                                |
+| **Precondition**     | User must be successfully logged in           |
+| **Test Tool**        | Testim AI                                     |
+| **Test Type**        | UI Automation                                 |
+| **Priority**         | Medium                                        |
+| **Steps to Execute** | Listed below                                  |
+| **Expected Result**  | User is redirected to login page after logout |
